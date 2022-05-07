@@ -1,4 +1,15 @@
-body{
-    background-color: black;
-    color: white;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 16%, rgba(44,19,240,1) 49%, rgba(99,60,252,1) 61%, rgba(164,0,255,1) 100%);
 }

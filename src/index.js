@@ -1,10 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-import TodoApp from "./components/stateComponents/CalcApp.js"
+import Calc from './components/CalcApp';
 
-import "./index.css"
+import './index.css';
+
 ReactDOM.render(
-  <CalcApp/>,
-  document.getElementById("root")
+  <Calc />,
+  document.getElementById('root'),
 );

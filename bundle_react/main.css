@@ -1,0 +1,149 @@
+/*!***************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/Body.css ***!
+  \***************************************************************************/
+.body {
+    width: 380px;
+    height: 580px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #000000;
+  }
+  
+/*!******************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/Display.css ***!
+  \******************************************************************************/
+.display {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    background-color: #4357692d;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    font-weight: bold;
+    box-sizing: border-box;
+  }
+  
+/*!**********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/ButtonArray.css ***!
+  \**********************************************************************************/
+.buttonArray {
+    width: 100%;
+    height: calc(100% - 110px);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 10px;
+  }
+  
+/*!******************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/Buttons.css ***!
+  \******************************************************************************/
+button {
+    border: none;
+    background-color: #333333;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 100px;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #595959;
+  }
+  
+  .equals {
+    grid-column: 3 / 5;
+    background-color: #efa43a;
+  }
+  
+  .equals:hover {
+    background-color: #ffbb3d;
+  }
+  
+  .sum{
+    background-color: #efa43a;
+  }
+  
+  .sum:hover {
+    background-color: #ffbb3d;
+  }
+
+  .multi{
+    background-color: #efa43a;
+  }
+  
+  .multi:hover {
+    background-color: #ffbb3d;
+  }
+
+  .less{
+    background-color: #efa43a;
+  }
+  
+  .less:hover {
+    background-color: #ffbb3d;
+  }
+
+  .divide{
+    
+    background-color: #efa43a;
+  }
+    
+  .divide:hover {
+    background-color: #ffbb3d;
+  }
+
+  .reset{
+    background-color: #a5a5a5;
+    color: #000000
+  }
+  .reset:hover{
+    background-color: #a5a5a5;
+    color: #000000
+  }
+  .signoo{
+    background-color: #a5a5a5;
+    color: #000000
+  }
+  .signoo:hover{
+    background-color: #cbcbcb;
+    color: #000000
+  }
+
+  .porcentaje{
+    background-color: #a5a5a5;
+    color: #000000
+  }
+  .porcentaje:hover{
+    background-color: #cbcbcb;
+    color: #000000
+  }
+
+
+    
+
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/index.css ***!
+  \*****************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 16%, rgba(44,19,240,1) 49%, rgba(99,60,252,1) 61%, rgba(164,0,255,1) 100%);
+}
+

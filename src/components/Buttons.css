@@ -1,0 +1,85 @@
+button {
+    border: none;
+    background-color: #333333;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 100px;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #595959;
+  }
+  
+  .equals {
+    grid-column: 3 / 5;
+    background-color: #efa43a;
+  }
+  
+  .equals:hover {
+    background-color: #ffbb3d;
+  }
+  
+  .sum{
+    background-color: #efa43a;
+  }
+  
+  .sum:hover {
+    background-color: #ffbb3d;
+  }
+
+  .multi{
+    background-color: #efa43a;
+  }
+  
+  .multi:hover {
+    background-color: #ffbb3d;
+  }
+
+  .less{
+    background-color: #efa43a;
+  }
+  
+  .less:hover {
+    background-color: #ffbb3d;
+  }
+
+  .divide{
+    
+    background-color: #efa43a;
+  }
+    
+  .divide:hover {
+    background-color: #ffbb3d;
+  }
+
+  .reset{
+    background-color: #a5a5a5;
+    color: #000000
+  }
+  .reset:hover{
+    background-color: #a5a5a5;
+    color: #000000
+  }
+  .signoo{
+    background-color: #a5a5a5;
+    color: #000000
+  }
+  .signoo:hover{
+    background-color: #cbcbcb;
+    color: #000000
+  }
+
+  .porcentaje{
+    background-color: #a5a5a5;
+    color: #000000
+  }
+  .porcentaje:hover{
+    background-color: #cbcbcb;
+    color: #000000
+  }
+
+
+    
